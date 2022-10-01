@@ -11,15 +11,15 @@ Quando ligar o servidor mysql, acesse o CMD e rode os comandos abaixo.
 
 --------- Criar um ambiente virtual ---------
 
-python -m venv venv_project_alfred
+python -m venv venv_alfred
 
 --------- Levantando ambiente virtual ---------
 
-venv_project_alfred\Scripts\activate
+venv_alfred\Scripts\activate
 
 --------- Instalando dependencias ---------
 
-pip install -r project_alfred\requirements.txt
+pip install -r alfred\requirements.txt
 
 --------- Instalando o projeto ---------
 
