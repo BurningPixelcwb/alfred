@@ -34,10 +34,11 @@ INSERT INTO subcategoria (id_subcategoria, nome_subcategoria, fk_id_categoria) V
 (14, 'Bump', 4),
 (15, 'Alimentacao', 5),
 (16, 'Remedios', 6),
-(17, 'Equipamento', 6);
+(17, 'Equipamento', 6),
+(18, 'Salario', 4);
 
 -- Realiza inserçõe na tabela TIPO TRANSACAO
 INSERT INTO tipo_transacao (id_tp_transacao, nome_tp_transacao) VALUES
 (1, 'Despesa'),
 (2, 'Receita'),
-(3, 'Transferência');
+(3, 'Transferencia');

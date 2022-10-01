@@ -56,8 +56,8 @@ CREATE TABLE IF NOT EXISTS ticket(
     , item_comprado varchar(155)
     , quantidade decimal(5,2)
     , medida varchar(15)
-    , preco decimal(5,2)
-    , valor_total decimal(5,2)
+    , preco decimal(15,2)
+    , valor_total decimal(15,2)
     , fk_id_transacao int(11)
     , FOREIGN KEY (fk_id_transacao) REFERENCES transacao(id_transacao)
 	, date_up TIMESTAMP DEFAULT CURRENT_TIMESTAMP
