@@ -15,7 +15,7 @@ python -m venv venv_alfred
 
 --------- Levantando ambiente virtual ---------
 
-venv_project_alfred\Scripts\activate
+venv_alfred\Scripts\activate
 
 --------- Instalando dependencias ---------
 
