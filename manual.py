@@ -16,7 +16,7 @@ ticket_lancamento = {
     , 'url_nfe': ''
     , 'estabelecimento': ''
     , 'endereco_compra': ''
-    , 'dt_ticket': ''
+    , 'dt_ticket': dt_lancamento
     , 'dt_lancamento': dt_lancamento
 }
 df_transacao = libs.pd.DataFrame(data=ticket_lancamento)
